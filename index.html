@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>林夕白告的网页</title>
+        <link rel="stylesheet" type="text/css" href="./web/index.css"/>
+        <script src="./web/myscript.js"></script>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body background="./image/Background/earphonegirl.jpg">
+        <div class="back">
+            <!-- <a href="https://space.bilibili.com/456202839"><-|点我学习更多</a> -->
+            <img src="./image/Background/logo.png" alt="">
+        </div>
+        <div class="main">
+            <div>
+                <h1>我的主页</h1>
+            </div>
+            <hr/>
+            <div>
+                <table>
+                    <tr>
+                        <td><a class="playLink" href="web/self_introduction.html" target="_blank" onclick="play()">个人介绍</a></td>
+                        <td><a class="playLink" href="web/studies.html" target="_blank" onclick="play()">学习相关</a></td>
+                        <td><a class="playLink" href="web/activities.html" target="_blank" onclick="play()">活动相关</a></td>
+                        <td><a class="playLink" href="web/works.html" target="_blank" onclick="play()">工作事务</a></td>
+                        <td><a class="playLink" href="web/viaupicletters.html" target="_blank" onclick="play()">影音图文</a></td>
+                        <td><a class="playLink" href="web/others.html" target="_blank" onclick="play()">其它内容</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="quote">
+                <p>
+                    “给时光以生命，给岁月以文明。<br/>
+                    宇宙很大，生活更大，也许以后还有缘相见。<br/>
+                    弱小和无知不是生存的障碍，傲慢才是。<br/>
+
+                </p>
+                <p style="margin-top: 30px;">
+                    <del>来了，爱了，给了她一颗星星，走了。</del>”
+                </p>
+                <p style="text-align: right;">——《The Three-Body Problem》by Cixin Liu</p>
+                 <audio id="audio" src="image/Background/starsing.mp3"  preload="auto" >您的浏览器不支持音频元素。
+                    </audio>
+            </div>
+        </div>
+        
+        <div class="foot">
+            <p>Copyright@John k Lee&nbsp;&nbsp;Referenced by <a href="https://github.com/zhoushiyao02200059">ZhouShiyao</a>&nbsp;&nbsp;</p>
+
+          
+           
+        </div>
+        <button class="b1" onclick="changeWallpaper()">点我切换壁纸</button>
+        <!-- <script>
+            //原点击播放音乐的代码
+            // 获取链接和音频元素
+            const playLinks = document.querySelectorAll('.playLink');
+            const audio = document.getElementById('audio');
+
+            // 遍历所有链接，监听点击事件
+            playLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                // 阻止默认行为（防止页面跳转）
+
+                // 播放音频
+                audio.play().then(() => {
+                    console.log('音频开始播放');
+                }).catch((error) => {
+                    console.log('播放音频时发生错误:', error);
+                });
+            });
+            });
+
+       </script> -->
+    </body>
+</html>

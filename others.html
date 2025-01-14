@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>林夕白告的网页</title>
+        <link rel="stylesheet" type="text/css" href="pages.css"/>
+        
+        <meta charset="UTF-8">
+    </head>
+    <body background="../image/Background/wallhaven-9mxjjk.webp">
+        <div class="head">
+            <ul style="float: left;">
+                <li><a class="guide" href="../index.html"><-|返回主页</a></li>
+            </ul>
+            <ul>
+                
+             
+                 <li><a style="background-color: rgba(0, 0, 0, 0.5); color:white;">其它内容</a></li>
+                <li><a href="viaupicletters.html">影音图文</a></li>
+               
+                 <li><a href="works.html">工作相关</a></li>
+                 <li><a href="activities.html">活动相关</a></li>
+                <li><a href="studies.html">学习相关</a></li>
+               <li><a href="./self_introduction.html">个人介绍</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1 style="text-align: center; background-color:rgba(0, 0, 0, 0.5); border-radius: 5px;">这里放一些其它不知道如何分类的内容</h1>
+        </div>
+            <hr>
+        <div class="body">
+            <div class="text">
+                <h2 align="center"><a href="https://www.bilibili.com/video/BV1kV411x7iX/">红军十问</a></h2>
+                    <div class="image" style="float: center;">
+                   
+                    <video id="video" width="768px" controls align="center" muted>
+                      <source src="../image/others/redarmy.mp4" type="video/mp4" >
+                      Your browser does not support the video tag.
+                    </video>
+                     <br/>
+                        <p align="center">转自B站</p>
+                    </div>
+                    <script>
+                        const video = document.getElementById('video');
+                        window.addEventListener('DOMContentLoaded',
+                        function() {
+                            // 在这里编写滚动事件的处理逻辑
+                            
+                            video && video.click();
+                            video && video.play();
+                            console.log('视频播放');
+                        });
+                        
+                    </script>
+            </div>
+            <hr/>
+            
+        </div>
+    </body>
+</html>
