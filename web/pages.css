@@ -61,6 +61,11 @@ div.image {
     font-size: 16px;
     color: gray;
 }
+.iframev {
+    width: 940px;
+    height: 529px;
+    border-radius: 5px;
+}
 h1 {
     color: white;
     font-size: xxx-large;
