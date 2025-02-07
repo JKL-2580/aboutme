@@ -43,6 +43,7 @@ div.main {
     border-radius: 10px;
     padding-top: 25px;
     font-family: "黑体";
+    border-radius: 5px;
 }
 
 div.page {
@@ -86,6 +87,7 @@ a {
 a:hover {
     color: black;
     background-color: white;
+    border-radius: 5px;
 }
 
 table {
