@@ -66,8 +66,10 @@ div.body img {
    margin: 0 auto; 
 }
 .iframev {
-    width: 940px;
-    height: 529px;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    display: block;
     border-radius: 5px;
 }
 h1 {
