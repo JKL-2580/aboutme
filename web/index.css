@@ -8,11 +8,11 @@ body {
 }
 
 div.back {
-    position: absolute;
+    position: fixed;
     top: 10px;
     margin: 0;
     display: block;
-    float: left;
+   
     background-color: rgba(173, 171, 171, 0.5);
     width: auto;
     font-size: large;
@@ -26,8 +26,9 @@ div.back a {
     background-color: rgba(0, 0, 0, 0);
 }
 .back img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    
 }
 div.back a:hover {
     color: white;
@@ -43,7 +44,8 @@ div.main {
     border-radius: 10px;
     padding-top: 25px;
     font-family: "黑体";
-    border-radius: 5px;
+    text-align: center;
+   
 }
 
 div.page {
@@ -51,7 +53,7 @@ div.page {
 }
 
 div.quote {
-	font-size: 24px;
+	font-size: 18px;
     padding: 5%;
     color: gainsboro;
     font-family: "华文行楷";
@@ -72,7 +74,7 @@ h1 {
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: normal;
-    font-size: xxx-large;
+    font-size: xx-large;
     text-shadow: 5px 5px 5px black;
    
 }
@@ -80,7 +82,7 @@ h1 {
 a {
     color: white;
     text-decoration: none;
-    line-height: 40px;
+    line-height: 30px;
     display: block;
 }
 
@@ -93,7 +95,8 @@ a:hover {
 table {
     margin: 0;
     width: 100%;
-    font-size: xx-large;
+    height: auto;
+    font-size: x-large;
 }
 
 tr {
